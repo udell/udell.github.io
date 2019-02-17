@@ -411,6 +411,14 @@ body.offcanvas {
   font-weight: 500;
   letter-spacing: 5px; }
 
+.splash {
+  object-fit: cover;
+  width: 100%; }
+  @media screen and (max-width: 768px) {
+    .splash {
+      object-fit: cover;
+      height: 100vh; } }
+
 .about-img,
 .about-img-2 {
   background-size: cover;
@@ -676,10 +684,6 @@ body.offcanvas {
   text-transform: uppercase;
   font-weight: 400;
   text-decoration: underline; }
-
-.splash {
-   object-fit: cover;
-   width: 100%; }
 
 .lead {
   font-size: 18px;
