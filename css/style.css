@@ -677,6 +677,10 @@ body.offcanvas {
   font-weight: 400;
   text-decoration: underline; }
 
+.splash {
+   object-fit: cover;
+   width: 100%; }
+
 .lead {
   font-size: 18px;
   line-height: 1.5; }
