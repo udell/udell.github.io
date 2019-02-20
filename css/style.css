@@ -593,25 +593,30 @@ body.offcanvas {
         left: 0;
         height: 450px;
         width: 100%; }
-      .project .desc .con .icon {
+      .project .desc .con h3 a {
         position: absolute;
-        bottom: 20px;
-        left: 20px;
-        right: 20px; }
-        .project .desc .con .icon span {
-          display: inline;
-          padding-right: 5px; }
-          .project .desc .con .icon span a {
-            color: #cccccc;
-            padding: 5px;
-            background: #333333;
-            -webkit-border-radius: 4px;
-            -moz-border-radius: 4px;
-            -ms-border-radius: 4px;
-            border-radius: 4px; }
-        .project .desc .con .icon i {
-          font-size: 16px;
-          color: #cccccc; }
+        height: auto;
+        width: auto;
+        color: #fff; }
+        .project .desc .con .icon {
+          position: absolute;
+          bottom: 20px;
+          left: 20px;
+          right: 20px; }
+          .project .desc .con .icon span {
+            display: inline;
+            padding-right: 5px; }
+            .project .desc .con .icon span a {
+              color: #cccccc;
+              padding: 5px;
+              background: #333333;
+              -webkit-border-radius: 4px;
+              -moz-border-radius: 4px;
+              -ms-border-radius: 4px;
+              border-radius: 4px; }
+            .project .desc .con .icon i {
+              font-size: 16px;
+              color: #cccccc; }
     .project .desc h3 {
       font-size: 20px;
       font-style: italic;
@@ -630,8 +635,6 @@ body.offcanvas {
       position: absolute;
       top: 50%;
       transform: translateX(-50%) translateY(-50%); }
-      .project .desc h3 a {
-        color: #fff; }
     .project .desc span {
       display: block;
       color: #999999;
