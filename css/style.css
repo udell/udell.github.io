@@ -22,12 +22,12 @@ body {
       font-size: 16px; } }
 
 a {
-  color: #A98A5B;
+  color: #0130EA;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
   a:hover, a:active, a:focus {
-    color: #A98A5B;
+    color: #0130EA;
     outline: none;
     text-decoration: none !important; }
 
@@ -57,15 +57,15 @@ figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #A98A5B; }
+  background: #0130EA; }
 
 ::-moz-selection {
   color: #fff;
-  background: #A98A5B; }
+  background: #0130EA; }
 
 ::selection {
   color: #fff;
-  background: #A98A5B; }
+  background: #0130EA; }
 
 #page {
   width: 100%;
@@ -202,7 +202,7 @@ figure {
       #aside .footer span a {
         color: rgba(0, 0, 0, 0.7); }
         #aside .footer span a:hover {
-          color: #A98A5B; }
+          color: #0130EA; }
     #aside .footer ul {
       padding: 0;
       margin: 0; }
@@ -217,7 +217,7 @@ figure {
           #aside .footer ul li a:hover, #aside .footer ul li a:active, #aside .footer ul li a:focus {
             text-decoration: none;
             outline: none;
-            color: #A98A5B; }
+            color: #0130EA; }
 
 #main {
   width: 80%;
@@ -275,7 +275,7 @@ figure {
           #hero .flexslider .flex-control-nav li a.flex-active {
             cursor: pointer;
             background: transparent;
-            border: 2px solid #A98A5B; }
+            border: 2px solid #0130EA; }
     #hero .flexslider .flex-direction-nav {
       display: none; }
     #hero .flexslider .slider-text {
@@ -457,7 +457,7 @@ body.offcanvas {
   font-size: 14px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  background-color: #000;
+  background-color: rgba(1, 48, 234);
   color: #fff;
   position: relative;
   -webkit-box-shadow: none !important;
@@ -741,11 +741,11 @@ body.offcanvas {
         .social li a {
           padding: 10px 8px; } }
       .social li a:hover {
-        color: #A98A5B; }
+        color: #0130EA; }
       .social li a:hover, .social li a:active, .social li a:focus {
         outline: none;
         text-decoration: none;
-        color: #A98A5B; }
+        color: #0130EA; }
 
 .more-contact {
   background: #fafafa;
@@ -773,7 +773,7 @@ body.offcanvas {
     .feature .icon i {
       display: table-cell;
       vertical-align: middle;
-      color: #A98A5B;
+      color: #0130EA;
       font-size: 40px;
       height: 100px; }
       @media screen and (max-width: 1200px) {
@@ -795,7 +795,7 @@ body.offcanvas {
   .feature.feature-sm .text {
     margin-top: 30px; }
   .feature.feature-sm .icon i {
-    color: #A98A5B;
+    color: #0130EA;
     font-size: 40px; }
     @media screen and (max-width: 1200px) {
       .feature.feature-sm .icon i {
@@ -836,19 +836,19 @@ body.offcanvas {
         -ms-border-radius: 2px;
         border-radius: 2px; }
       .pagination li a:hover, .pagination li a:focus {
-        background: #A98A5B;
+        background: #0130EA;
         color: #fff;
-        border: 1px solid #A98A5B; }
+        border: 1px solid #0130EA; }
       @media screen and (max-width: 768px) {
         .pagination li a {
           padding: 7px 15px; } }
     .pagination li.active a {
-      background: #A98A5B;
-      border: 1px solid #A98A5B !important; }
+      background: #0130EA;
+      border: 1px solid #0130EA !important; }
       .pagination li.active a:hover, .pagination li.active a:focus {
-        background: #A98A5B;
+        background: #0130EA;
         color: #fff;
-        border: 1px solid #A98A5B !important; }
+        border: 1px solid #0130EA !important; }
 
 .btn {
   margin-right: 4px;
@@ -878,18 +878,18 @@ body.offcanvas {
     outline: none !important; }
 
 .btn-primary {
-  background: #A98A5B;
+  background: #0130EA;
   color: #fff;
-  border: 2px solid #A98A5B; }
+  border: 2px solid #0130EA; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     background: #f86e58 !important;
     border-color: #f86e58 !important; }
   .btn-primary.btn-outline {
     background: transparent;
-    color: #A98A5B;
-    border: 2px solid #A98A5B; }
+    color: #0130EA;
+    border: 2px solid #0130EA; }
     .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-      background: #A98A5B;
+      background: #0130EA;
       color: #fff; }
 
 .btn-success {
@@ -982,7 +982,7 @@ body.offcanvas {
     outline: none;
     -webkit-box-shadow: none;
     box-shadow: none;
-    border-color: #A98A5B; }
+    border-color: #0130EA; }
 
 #message {
   height: 130px; }
