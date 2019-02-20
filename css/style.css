@@ -457,7 +457,7 @@ body.offcanvas {
   font-size: 14px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  background-color: rgba(1, 48, 234);
+  background-color: #0130EA;
   color: #fff;
   position: relative;
   -webkit-box-shadow: none !important;
@@ -490,13 +490,13 @@ body.offcanvas {
 
 .panel-heading a.collapsed {
   background: #fafafa;
-  border: 1px solid #e6e6e6 !important;
+  border: 1px solid #0130EA !important;
   color: #333333; }
 
 .panel-body {
   padding: 1.5em;
   margin-top: 5px;
-  border: 1px solid #e6e6e6 !important; }
+  border: 1px solid #0130EA !important; }
 
 .blog-entry {
   width: 100%;
