@@ -490,13 +490,13 @@ body.offcanvas {
 
 .panel-heading a.collapsed {
   background: #fafafa;
-  border: 1px solid #0130EA !important;
+  border: 1px solid #e6e6e6 !important;
   color: #333333; }
 
 .panel-body {
   padding: 1.5em;
   margin-top: 5px;
-  border: 1px solid #0130EA !important; }
+  border: 1px solid #e6e6e6 !important; }
 
 .blog-entry {
   width: 100%;
