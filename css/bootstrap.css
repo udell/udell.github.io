@@ -344,11 +344,11 @@ textarea {
 }
 
 a {
-  color: #337ab7;
+  color: #0130EA;
   text-decoration: none;
 }
 a:hover, a:focus {
-  color: #23527c;
+  color: #0130EA;
   text-decoration: underline;
 }
 a:focus {
@@ -369,6 +369,11 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.img-responsive:hover {
+    background: #0130EA;
+    opacity: 0.75;
 }
 
 .img-detail {
