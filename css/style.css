@@ -862,7 +862,7 @@ body.offcanvas {
         color: #fff;
         border: 1px solid #0130EA !important; }
 
-/* .btn {
+.btn {
   margin-right: 4px;
   margin-bottom: 4px;
   font-family: "Quicksand", Arial, sans-serif;
@@ -997,7 +997,7 @@ body.offcanvas {
     border-color: #0130EA; }
 
 #message {
-  height: 130px; } */
+  height: 130px; }
 
 .nav-toggle {
   cursor: pointer;

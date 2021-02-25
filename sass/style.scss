@@ -4,11 +4,7 @@ $font-primary: 'Quicksand', Arial, sans-serif;
 $grid-gutter-width: 40px !default;
 $border-radius-base:  4px !default;
 $padding-base-vertical: 14px !default;
-
 $brand-primary: #F75940 !default;
-
-
-
 $brand-white: #fff;
 $brand-black: #000;
 $brand-darker: #444;
@@ -18,11 +14,8 @@ $brand-body-color: #e8e8e8;
 $brand-selection-color: #f9f6f0;
 $brand-overlay-color: #3b3d40;
 $brand-bg-color: $brand-white;
-
 $input-border-focus:  $brand-primary !default;
 $form-group-margin-bottom:       30px !default;
-
-
 
 // Mixin
 @mixin translateX($translatex) {
@@ -64,6 +57,19 @@ $form-group-margin-bottom:       30px !default;
 	-webkit-flex-wrap: wrap;
 	-moz-flex-wrap: wrap;
 }
+@mixin icomoon() {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
 
 @font-face {
 	font-family: 'icomoon';
@@ -76,28 +82,9 @@ $form-group-margin-bottom:       30px !default;
 	font-style: normal;
 }
 
-@mixin icomoon() {
-
-	font-family: 'icomoon';
-	speak: none;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	line-height: 1;
-
-	/* Better Font Rendering =========== */
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-
-}
-
 // Import
 @import 'bootstrap/mixins';
 @import 'bootstrap/variables';
-
-
-
 
 /* =======================================================
 *
@@ -117,15 +104,17 @@ body {
 		font-size: 16px;
 	}
 }
+
 a {
-	color: $brand-primary;
 	@include transition(.5s);
+	color: $brand-primary;
 	&:hover, &:active, &:focus {
 		color: $brand-primary;
 		outline: none;
 		text-decoration: none !important;
 	}
 }
+
 p {
 	margin-bottom: 1.5em;
 }
@@ -136,6 +125,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 400;
 	margin: 0 0 30px 0;
 }
+
 figure {
 	margin-bottom: 2.5em;
 	float: left;
@@ -152,6 +142,7 @@ figure {
 		}
 	}
 }
+
 ::-webkit-selection {
   color: $brand-white;
   background: $brand-primary;
@@ -172,12 +163,13 @@ figure {
     overflow: hidden;
     position: relative;
 }
+
 #aside {
+	@include transition(.5s);
 	padding-top: 3em;
 	padding-bottom: 40px;
 	padding-left: 3em;
 	padding-right: 3em;
-
 	width: 20%;
 	position: fixed;
 	bottom: 0;
@@ -186,13 +178,12 @@ figure {
 	overflow-y: scroll;
 	z-index: 1001;
 	background: $brand-white;
-	@include transition(.5s);
 	@media screen and (max-width: $screen-lg) {
 		width: 30%;
 	}
 	@media screen and (max-width: $screen-sm) {
-		width: 270px;
 		@include translateX(-270px);
+		width: 270px;
 		padding-top: 4em;
 	}
 	#logo {
@@ -206,7 +197,7 @@ figure {
 		@media screen and(max-width: $screen-sm){
 			margin-bottom: 1em;
 		}
-		a{
+		a {
 			display: inline-block;
 			text-align: center;
 			background: $brand-black;
@@ -214,13 +205,14 @@ figure {
 			color: $brand-white;
 			letter-spacing: 10px;
 			padding-right: .3em;
-			span{
+			span {
 				display: block;
 				margin-bottom: 5px;
 				text-align: center;
 			}
 		}
 	}
+
 	#main-menu {
 		ul {
 			text-align: right;
@@ -238,12 +230,12 @@ figure {
 				text-transform: uppercase;
 				letter-spacing: 1px;
 				a {
+					@include transition(.3s);
 					color: rgba(0,0,0,.4);
 					text-decoration: none;
 					position: relative;
 					padding: 10px 0;
 					font-family: $font-primary;
-					@include transition(.3s);
 					&:after {
 						content: "";
 						position: absolute;
@@ -294,6 +286,7 @@ figure {
 			}
 		}
 	}
+
 	.footer {
 		position: absolute;
 		bottom: 40px;
@@ -335,9 +328,9 @@ figure {
 }
 
 #main {
+	@include transition(.5s);
 	width: 80%;
 	float: right;
-	@include transition(.5s);
 	@media screen and (max-width: $screen-lg) {
 		width: 70%;
 	}
@@ -445,25 +438,25 @@ figure {
 					margin-bottom: 30px;
 					font-weight: 300;
 					font-family: $font-primary;
-					a{
+					a {
 						color: rgba($brand-primary,.8);
 						border-bottom: 1px solid rgba($brand-primary,.7)
 					}
 				}
-				.heading-section{
+				.heading-section {
 					font-size: 50px;
 					@media screen and (max-width: $screen-sm){
 						font-size: 30px;
 					}
-				}s
-				.lead{
+				}
+				.lead {
 					font-size: 20px;
 					color: $brand-white;
 				}
-				p{
+				p {
 					margin-bottom: 0;
 				}
-				.btn{
+				.btn {
 					font-size: 12px;
 					text-transform: uppercase;
 					letter-spacing: 2px;
@@ -471,11 +464,11 @@ figure {
 					padding: 10px 15px !important;
 					border: none;
 					font-weight: 400;
-					&.btn-learn{
+					&.btn-learn {
 						background: transparent;
 						color: $brand-black;
 						border: 1px solid $brand-black;
-						&:hover{
+						&:hover {
 							background: transparent !important;
 							border: 1px solid $brand-black !important;
 						}
@@ -487,7 +480,6 @@ figure {
 			}
 		}
 	}
-
 }
 
 body {
@@ -501,8 +493,8 @@ body {
 			position: fixed;
 		}
 		#main, .nav-toggle {
-			top: 0;
 			@include translateX(270px);
+			top: 0;
 		}
 	}
 }
@@ -522,7 +514,6 @@ body {
 		padding-bottom: 8em;
 	}
 }
-
 
 .about-img,
 .about-img-2{
@@ -546,7 +537,7 @@ body {
 		margin-bottom: 1em;
 	}
 }
-.heading-meta{
+.heading-meta {
 	margin-bottom: 15px;
 	display: block;
 	font-size: 10px;
@@ -557,10 +548,10 @@ body {
 }
 
 //ABOUT
-.about-img{
+.about-img {
 	width: 75%;
 	height: 550px;
-	.about-img-2{
+	.about-img-2 {
 		width: 100% !important;
 		height: 390px;
 		position: absolute;
@@ -572,8 +563,8 @@ body {
 		box-shadow: 0px 35px 78px -23px rgba(0,0,0,0.33);
 	}
 }
-.about-desc{
-	h3{
+.about-desc {
+	h3 {
 		font-size: 18px;
 		text-transform: uppercase;
 		letter-spacing: 5px;
@@ -604,7 +595,7 @@ body {
 	box-shadow: none !important;
 
 }
-.panel{
+.panel {
 	-webkit-box-shadow: none !important;
 	-moz-box-shadow: none !important;
 	-ms-box-shadow: none !important;
@@ -612,6 +603,7 @@ body {
 	box-shadow: none !important;
 	border: none;
 }
+
 .panel-heading a:after {
 	font-family: "icomoon";
 	content: "\ea0e";
@@ -627,11 +619,13 @@ body {
 .panel-heading a.collapsed:after {
 content: "\ea1c";
 }
+
 .panel-heading a.collapsed{
 	background: lighten($brand-black,98%);
 	border: 1px solid lighten($brand-black,90%) !important;
 	color: lighten($brand-black,20%);
 }
+
 .panel-body{
 	padding: 1.5em;
 	margin-top: 5px;
@@ -639,9 +633,8 @@ content: "\ea1c";
 }
 
 
-
 //BLOG
-.blog-entry{
+.blog-entry {
 	width: 100%;
 	float: left;
 	background: $brand-white;
@@ -649,7 +642,7 @@ content: "\ea1c";
 	@media screen and(max-width: $screen-sm){
 		margin-bottom: 3em;
 	}
-	.blog-img{
+	.blog-img {
 		width: 100%;
 		float: left;
 		overflow: hidden;
@@ -657,6 +650,7 @@ content: "\ea1c";
 		z-index: 1;
 		margin-bottom: 25px;
 		img {
+			@include transition(.3s);
 			position: relative;
 			max-width: 100%;
 			-webkit-transform: scale(1.0);
@@ -664,29 +658,28 @@ content: "\ea1c";
 			-ms-transform: scale(1.0);
 			-o-transform: scale(1.0);
 			transform: scale(1.0);
-			@include transition(.3s);
 		}
 	}
-	.desc{
-		h3{
+	.desc {
+		h3 {
 			font-size: 16px;
 			margin-bottom: 25px;
 			line-height: auto;
 			font-weight: 500;
 			text-transform: uppercase;
 			letter-spacing: 1px;
-			a{
+			a {
 				color: $brand-black;
 				text-decoration: none;
 			}
 		}
-		span{
+		span {
 			display: block;
 			margin-bottom: 20px;
 			font-size: 14px;
 			color: rgba(0,0,0,.5) !important;
-			small{
-				i{
+			small {
+				i {
 					color: lighten($brand-black,60%);
 				}
 			}
@@ -698,9 +691,9 @@ content: "\ea1c";
 			color: $brand-black;
 		}
 	}
-	&:hover{
-		.blog-img{
-			img{
+	&:hover {
+		.blog-img {
+			img {
 				-webkit-transform: scale(1.1);
 				-moz-transform: scale(1.1);
 				-ms-transform: scale(1.1);
@@ -711,16 +704,17 @@ content: "\ea1c";
 	}
 }
 
-.overlap{
+.overlap {
 	margin-top: 5em;
 	background: $brand-white;
 	padding: 30px;
-	@media screen and(max-width: $screen-sm){
+	@media screen and(max-width: $screen-sm) {
 		margin-top: 2em;
 	}
 }
+
 // PROJECT
-.project{
+.project {
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -729,7 +723,8 @@ content: "\ea1c";
 	width: 100%;
 	display: block;
 	margin-bottom: 30px;
-	.desc{
+	.desc {
+		@include transition(.3s);
 		position: absolute;
 		top: 0;
 		bottom: 0;
@@ -738,34 +733,33 @@ content: "\ea1c";
 		right: 0;
 		background: rgba(0,0,0,.9);
 		opacity: 0;
-		@include transition(.3s);
-		.con{
+		.con {
 			padding: 20px;
 			display: block;
 			position: relative;
 			height: 450px;
-			.icon{
+			.icon {
 				position: absolute;
 				bottom: 20px;
 				left: 20px;
 				right: 20px;
-				span{
+				span {
 					display: inline;
 					padding-right: 5px;
-					a{
+					a {
+						@include border-radius(4px);
 						color: lighten($brand-black,80%);
 						padding: 5px;
 						background: lighten($brand-black,20%);
-						@include border-radius(4px);
 					}
 				}
-				i{
+				i {
 					font-size: 16px;
 					color: lighten($brand-black,80%);
 				}
 			}
 		}
-		h3{
+		h3 {
 			font-size: 16px;
 			font-weight: 500;
 			text-transform: uppercase;
@@ -775,11 +769,11 @@ content: "\ea1c";
 			-webkit-transform: translate3d(0, -15px, 0);
 			transform: translate3d(0, -15px, 0);
 			margin-bottom: 15px;
-			a{
+			a {
 				color: $brand-white;
 			}
 		}
-		span{
+		span {
 			display: block;
 			color: lighten($brand-black,60%);
 			font-size: 13px;
@@ -787,63 +781,63 @@ content: "\ea1c";
 			transition: transform 0.3s, opacity 0.3s;
 			-webkit-transform: translate3d(0, 15px, 0);
 			transform: translate3d(0, 15px, 0);
-			a{
+			a {
 				color: $brand-black;
 			}
 		}
-		@media screen and(max-width: $screen-sm){
+		@media screen and(max-width: $screen-sm) {
 			opacity: 1;
 			background: rgba($brand-white,.5);
-			h3{
+			h3 {
 				font-style: 28px;
 				-webkit-transform: translate3d(0, 0, 0);
 				transform: translate3d(0, 0, 0);
 				color: $brand-black;
 			}
-			span{
+			span {
 				-webkit-transform: translate3d(0, 0, 0);
 				transform: translate3d(0, 0, 0);
 			}
 		}
 	}
-	&:hover{
+	&:hover {
 		.desc{
 			opacity: 1;
-			h3{
+			h3 {
 				-webkit-transform: translate3d(0, 0, 0);
 				transform: translate3d(0, 0, 0);
 			}
-			span{
+			span {
 				-webkit-transform: translate3d(0, 0, 0);
 				transform: translate3d(0, 0, 0);
 			}
 		}
 	}
 }
-.project-desc{
-	h2{
+.project-desc {
+	h2 {
 		font-size: 16px;
 		font-weight: 500;
 		text-transform: uppercase;
 		letter-spacing: 1px;
 		margin-bottom: 15px;
 	}
-	span{
+	span {
 		display: block;
 		color: lighten($brand-black,40%);
 		font-size: 13px;
 		margin-bottom: 15px;
-		a{
+		a {
 			color: lighten($brand-black,40%);
 		}
 	}
-	.icon{
-		span{
+	.icon {
+		span {
 			display: inline;
 			padding-right: 5px;
 		}
 	}
-	.btn-download{
+	.btn-download {
 		font-size: 13px;
 		text-transform: uppercase;
 		font-weight: 400;
@@ -851,17 +845,16 @@ content: "\ea1c";
 	}
 }
 
-
 .lead {
 	font-size: 18px;
 	line-height: 1.5;
 }
-#get-in-touch{
+#get-in-touch {
 	padding: 2em;
 	.btn-learn{
+		@include border-radius(30px);
 		padding: 15px 30px !important;
 		font-size: 13px;
-		@include border-radius(30px);
 	}
 }
 
@@ -871,16 +864,16 @@ content: "\ea1c";
 	margin: 0;
 	text-align: center;
 	li {
+		@include inline-block;
 		padding: 0;
 		margin: 0;
 		list-style: none;
-		@include inline-block;
 		a {
+			@include inline-block;
+			@include border-radius(7px);
 			font-size: 22px;
 			color: $brand-black;
 			padding: 10px;
-			@include inline-block;
-			@include border-radius(7px);
 			@media screen and (max-width: $screen-sm) {
 				padding: 10px 8px;
 			}
@@ -895,7 +888,6 @@ content: "\ea1c";
 		}
 	}
 }
-
 
 #map {
 	width: 100%;
@@ -917,6 +909,7 @@ content: "\ea1c";
 	margin-bottom: 40px;
 	position: relative;
 	.icon {
+		@include border-radius(2px);
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -925,7 +918,6 @@ content: "\ea1c";
 		display: table;
 		text-align: center;
 		background: rgba($brand-black,.03);
-		@include border-radius(2px);
 		i {
 			display: table-cell;
 			vertical-align: middle;
@@ -969,7 +961,6 @@ content: "\ea1c";
 	}
 }
 
-
 .feature-lg{
 	.text {
 		h2, h3 {
@@ -987,23 +978,21 @@ content: "\ea1c";
 	}
 }
 
-
 .bg-color{
 	background: lighten($brand-black,98%);
 	position: relative;
 }
-
 
 .pagination{
 	padding: 0;
 	li{
 		margin: 2px;
 		a{
+			@include border-radius(0);
 			color: $brand-black;
 			background: transparent;
 			color: $brand-black;
 			margin: 2px;
-			@include border-radius(0);
 			&:first-child{
 				@include border-radius(2px);
 			}
@@ -1032,6 +1021,8 @@ content: "\ea1c";
 
 // Buttons
 .btn {
+	@include border-radius(2px);
+	@include transition(.5s);
 	margin-right: 4px;
 	margin-bottom: 4px;
 	font-family: $font-primary;
@@ -1039,8 +1030,6 @@ content: "\ea1c";
 	font-weight: 400;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	@include border-radius(2px);
-	@include transition(.5s);
 	padding: 8px 15px!important;
 	&.btn-sm {
 		padding: 4px 15px!important;
@@ -1056,6 +1045,7 @@ content: "\ea1c";
 		outline: none!important;
 	}
 }
+
 .btn-primary {
 	background: $brand-primary;
 	color: $brand-white;
@@ -1074,6 +1064,7 @@ content: "\ea1c";
 		}
 	}
 }
+
 .btn-success {
 	background: $brand-success;
 	color: $brand-white;
@@ -1092,6 +1083,7 @@ content: "\ea1c";
 		}
 	}
 }
+
 .btn-info {
 	background: $brand-info;
 	color: $brand-white;
@@ -1110,6 +1102,7 @@ content: "\ea1c";
 		}
 	}
 }
+
 .btn-warning {
 	background: $brand-warning;
 	color: $brand-white;
@@ -1128,6 +1121,7 @@ content: "\ea1c";
 		}
 	}
 }
+
 .btn-danger {
 	background: $brand-danger;
 	color: $brand-white;
@@ -1148,10 +1142,10 @@ content: "\ea1c";
 }
 
 .btn-outline {
+	@include transition(.3s);
 	background: none;
 	border: 2px solid lighten($brand-black, 50%);
 	font-size: 16px;
-	@include transition(.3s);
 	&:hover, &:focus, &:active {
 		box-shadow: none;
 	}
@@ -1159,6 +1153,7 @@ content: "\ea1c";
 
 // Form Input Field
 .form-control {
+	@include border-radius(0);
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
@@ -1168,13 +1163,13 @@ content: "\ea1c";
 	height: 54px;
 	font-size: 16px;
 	font-weight: 400;
-	@include border-radius(0);
   	&:active, &:focus {
   		outline: none;
 		box-shadow: none;
 		border-color: $brand-primary;
   }
 }
+
 #message {
 	height: 130px;
 }
@@ -1200,8 +1195,8 @@ content: "\ea1c";
   	border-bottom: none!important;
   }
   i {
-  	position: relative;
 	  @include inline-block;
+		position: relative;
 	  width: 30px;
 	  height: 2px;
 	  color: $brand-black;
@@ -1211,13 +1206,13 @@ content: "\ea1c";
 	  background: $brand-black;
 	  transition: all .2s ease-out;
 		 &::before, &::after {
-	  	  content:'';
-		  width: 30px;
+			content:'';
+		  @include transition(.2s);
+			width: 30px;
 		  height: 2px;
 		  background: $brand-black;
 		  position: absolute;
 		  left:0;
-		  @include transition(.2s);
 	  }
   }
   &.dark {
@@ -1227,8 +1222,8 @@ content: "\ea1c";
 		  background: $brand-black;
 		  transition: all .2s ease-out;
 			 &::before, &::after {
-			  background: $brand-black;
 			  @include transition(.2s);
+			  background: $brand-black;
 		  }
 	  }
   }
@@ -1266,8 +1261,9 @@ content: "\ea1c";
           transform: rotateZ(-45deg);
 }
 .nav-toggle {
-  	position: fixed;
-  	left: -4px;
+	@include transition(.5s);
+	position: fixed;
+  left: -4px;
 	top: 0px;
 	z-index: 9999;
 	cursor: pointer;
@@ -1275,14 +1271,11 @@ content: "\ea1c";
 	visibility: hidden;
 	padding: 20px;
 	// background: rgba(255,255,255,.9);
-	@include transition(.5s);
   	@media screen and (max-width: $screen-sm) {
   		opacity: 1;
-		visibility: visible;
+			visibility: visible;
   	}
-
 }
-
 
 // Helper Class
 .col-xxs-12 {
@@ -1312,8 +1305,6 @@ content: "\ea1c";
 .col-padding{
 	padding: 10px !important;
 }
-
-
 .animate-box {
 	.js & {
 		opacity: 0;
@@ -1321,8 +1312,8 @@ content: "\ea1c";
 }
 
 #sticky_item {
-	overflow: hidden;
 	@include transition(.3s);
+	overflow: hidden;
 	&.is_stuck {
 		margin-top: 10px;
 
