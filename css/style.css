@@ -318,8 +318,8 @@ figure {
           font-weight: 300;
           font-family: "Quicksand", Arial, sans-serif; }
           #hero .flexslider .slider-text > .slider-text-inner h2 a {
-            color: rgba(247, 89, 64, 0.8);
-            border-bottom: 1px solid rgba(247, 89, 64, 0.7); }
+            color: #ffaec9;
+            border-bottom: 1px solid #ffaec9; }
         #hero .flexslider .slider-text > .slider-text-inner .heading-section {
           font-size: 50px; }
           @media screen and (max-width: 768px) {
@@ -894,8 +894,8 @@ body.offcanvas {
   color: #fff;
   border: 2px solid #0130EA; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    background: #f86e58 !important;
-    border-color: #f86e58 !important; }
+    background: #ffaec9 !important;
+    border-color: #ffaec9 !important; }
   .btn-primary.btn-outline {
     background: transparent;
     color: #0130EA;
