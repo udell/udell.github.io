@@ -137,7 +137,7 @@ figure {
       text-transform: uppercase;
       letter-spacing: 1px; }
       #aside #main-menu ul li a {
-        color: rgba(0, 0, 0, 0.4);
+        color: rgba(0, 0, 0, 0.7);
         text-decoration: none;
         position: relative;
         padding: 10px 0;
@@ -152,7 +152,7 @@ figure {
           bottom: 7px;
           left: 0;
           right: 0;
-          background-color: #000;
+          background-color: #0130EA;
           visibility: hidden;
           -webkit-transform: scaleX(0);
           -moz-transform: scaleX(0);
@@ -166,7 +166,7 @@ figure {
           transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
         #aside #main-menu ul li a:hover {
           text-decoration: none;
-          color: #000; }
+          color: #0130EA; }
           #aside #main-menu ul li a:hover:after {
             visibility: visible;
             -webkit-transform: scaleX(1);
@@ -175,7 +175,7 @@ figure {
             -o-transform: scaleX(1);
             transform: scaleX(1); }
       #aside #main-menu ul li.active a {
-        color: #000; }
+        color: #0130EA; }
         #aside #main-menu ul li.active a:after {
           visibility: visible;
           -webkit-transform: scaleX(1);
@@ -191,7 +191,7 @@ figure {
     font-size: 15px;
     text-align: right;
     font-weight: 400;
-    color: rgba(0, 0, 0, 0.3);
+    color: rgba(0, 0, 0, 0.7);
     padding: 0 22px; }
     @media screen and (max-width: 768px) {
       #aside .footer {
@@ -200,7 +200,7 @@ figure {
     #aside .footer span {
       display: block; }
       #aside .footer span a {
-        color: rgba(0, 0, 0, 0.3); }
+        color: rgba(0, 0, 0, 0.7); }
         #aside .footer span a:hover {
           color: #0130EA; }
     #aside .footer ul {
