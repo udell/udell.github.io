@@ -30,9 +30,6 @@
 	<link rel="stylesheet" href="css/flexslider.css">
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
-	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/baguetteBox.css">
-	<link rel="stylesheet" href="https://rawgit.com/LeshikJanz/libraries/master/Bootstrap/baguetteBox.min.css">
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
@@ -64,18 +61,23 @@
 <div id="main">
 	<div class="work">
 		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-					<div class="project" style="background-image: url(images/portfolio/birds/bigbird.jpg);">
-						<div class="desc">
-							<div class="con">
-								<a href="birds.html"></a>
-								<h3><a href="birds.html">birds</a></h3>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+			<a href="#img1">
+			  <img class="sketchbook" src="images/sketchbook/bigbird.jpg">
+			</a>
+			<a href="#" class="lightbox" id="img1">
+			  <span style="background-image: url('images/sketchbook/bigbird.jpg')"></span>
+			</a>
+			<a href="#img2">
+				<img class="sketchbook" src="images/sketchbook/important.jpg">
+			</a>
+			<a href="#" class="lightbox" id="img2">
+				<span style="background-image: url('images/sketchbook/important.jpg')"></span>
+				<a href="#img3">
+					<img class="sketchbook" src="images/sketchbook/peaches.jpg">
+				</a>
+				<a href="#" class="lightbox" id="img3">
+					<span style="background-image: url('images/sketchbook/peaches.jpg')"></span>
+			</a>
 		</div>
 	</div>
 </div>
@@ -94,9 +96,8 @@
 	<!-- Sticky Kit -->
 	<script src="js/sticky-kit.min.js"></script>
 
-
 	<!-- MAIN JS -->
 	<script src="js/main.js"></script>
 
-	</body>
+</body>
 </html>
