@@ -56,15 +56,15 @@ figure {
         width: 100%; } }
 
 ::-webkit-selection {
-  color: #fff;
+  color: #F5F5F5;
   background: #0130EA; }
 
 ::-moz-selection {
-  color: #fff;
+  color: #F5F5F5;
   background: #0130EA; }
 
 ::selection {
-  color: #fff;
+  color: #F5F5F5;
   background: #0130EA; }
 
 #page {
@@ -81,7 +81,7 @@ figure {
   left: 0;
   overflow-y: hidden;
   z-index: 1001;
-  background: #fff;
+  background: #F5F5F5;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
@@ -152,7 +152,7 @@ figure {
           bottom: 7px;
           left: 0;
           right: 0;
-          background-color: #0130EA;
+          background-color: #ffaec9;
           visibility: hidden;
           -webkit-transform: scaleX(0);
           -moz-transform: scaleX(0);
@@ -234,7 +234,7 @@ figure {
 
 #hero {
   min-height: 500px;
-  background: #fff url(../images/loader.gif) no-repeat center center;
+  background: #F5F5F5 url(../images/loader.gif) no-repeat center center;
   width: 100%;
   float: left;
   margin-bottom: 10em;
@@ -294,7 +294,7 @@ figure {
           bottom: 15px;
           left: 0;
           padding: 30px;
-          background: #fff; }
+          background: #F5F5F5; }
         @media screen and (max-width: 768px) {
           #hero .flexslider .slider-text > .slider-text-inner {
             text-align: center; } }
@@ -328,7 +328,7 @@ figure {
         #hero .flexslider .slider-text > .slider-text-inner s
 .lead {
           font-size: 20px;
-          color: #fff; }
+          color: #F5F5F5; }
         #hero .flexslider .slider-text > .slider-text-inner p {
           margin-bottom: 0; }
         #hero .flexslider .slider-text > .slider-text-inner .btn {
@@ -359,7 +359,7 @@ body.offcanvas {
     -o-transform: translateX(0);
     transform: translateX(0);
     width: 270px;
-    background: #fff;
+    background: #F5F5F5;
     z-index: 999;
     position: fixed; }
   body.offcanvas #main, body.offcanvas .nav-toggle {
@@ -458,7 +458,7 @@ body.offcanvas {
   letter-spacing: 1px;
   text-transform: uppercase;
   background-color: #0130EA;
-  color: #fff;
+  color: #F5F5F5;
   position: relative;
   -webkit-box-shadow: none !important;
   -moz-box-shadow: none !important;
@@ -500,7 +500,7 @@ body.offcanvas {
 
 .overlap {
   margin-top: 5em;
-  background: #fff;
+  background: #F5F5F5;
   padding: 30px; }
   @media screen and (max-width: 768px) {
     .overlap {
@@ -573,7 +573,7 @@ body.offcanvas {
         position: absolute;
         height: auto;
         width: auto;
-        color: #fff; }
+        color: #F5F5F5; }
         .project .desc .con .icon {
           position: absolute;
           bottom: 20px;
@@ -597,7 +597,7 @@ body.offcanvas {
       font-size: 20px;
       font-style: italic;
       font-weight: 500;
-      color: #fff;
+      color: #F5F5F5;
       letter-spacing: 1px;
       -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
       -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
@@ -624,7 +624,7 @@ body.offcanvas {
       -webkit-transform: translate3d(0, 15px, 0);
       transform: translate3d(0, 15px, 0); }
       .project .desc span a {
-        color: #fff; }
+        color: #F5F5F5; }
     @media screen and (max-width: 768px) {
       .project .desc {
         opacity: 1;
@@ -638,7 +638,7 @@ body.offcanvas {
           transform: translate3d(0, 0, 0); }
           .project .desc .con h3 a {
             position: relative;
-            color: #fff;
+            color: #F5F5F5;
             background: #0130EA; } }
   .project:hover .desc {
     opacity: 1; }
@@ -825,7 +825,7 @@ body.offcanvas {
         border-radius: 2px; }
       .pagination li a:hover, .pagination li a:focus {
         background: #0130EA;
-        color: #fff;
+        color: #F5F5F5;
         border: 1px solid #0130EA; }
       @media screen and (max-width: 768px) {
         .pagination li a {
@@ -835,7 +835,7 @@ body.offcanvas {
       border: 1px solid #0130EA !important; }
       .pagination li.active a:hover, .pagination li.active a:focus {
         background: #0130EA;
-        color: #fff;
+        color: #F5F5F5;
         border: 1px solid #0130EA !important; }
 
 .btn {
@@ -867,7 +867,7 @@ body.offcanvas {
 
 .btn-primary {
   background: #0130EA;
-  color: #fff;
+  color: #F5F5F5;
   border: 2px solid #0130EA; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     background: #ffaec9 !important;
@@ -878,11 +878,11 @@ body.offcanvas {
     border: 2px solid #0130EA; }
     .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
       background: #0130EA;
-      color: #fff; }
+      color: #F5F5F5; }
 
 .btn-success {
   background: #5cb85c;
-  color: #fff;
+  color: #F5F5F5;
   border: 2px solid #5cb85c; }
   .btn-success:hover, .btn-success:focus, .btn-success:active {
     background: #4cae4c !important;
@@ -893,11 +893,11 @@ body.offcanvas {
     border: 2px solid #5cb85c; }
     .btn-success.btn-outline:hover, .btn-success.btn-outline:focus, .btn-success.btn-outline:active {
       background: #5cb85c;
-      color: #fff; }
+      color: #F5F5F5; }
 
 .btn-info {
   background: #5bc0de;
-  color: #fff;
+  color: #F5F5F5;
   border: 2px solid #5bc0de; }
   .btn-info:hover, .btn-info:focus, .btn-info:active {
     background: #46b8da !important;
@@ -908,11 +908,11 @@ body.offcanvas {
     border: 2px solid #5bc0de; }
     .btn-info.btn-outline:hover, .btn-info.btn-outline:focus, .btn-info.btn-outline:active {
       background: #5bc0de;
-      color: #fff; }
+      color: #F5F5F5; }
 
 .btn-warning {
   background: #f0ad4e;
-  color: #fff;
+  color: #F5F5F5;
   border: 2px solid #f0ad4e; }
   .btn-warning:hover, .btn-warning:focus, .btn-warning:active {
     background: #eea236 !important;
@@ -923,11 +923,11 @@ body.offcanvas {
     border: 2px solid #f0ad4e; }
     .btn-warning.btn-outline:hover, .btn-warning.btn-outline:focus, .btn-warning.btn-outline:active {
       background: #f0ad4e;
-      color: #fff; }
+      color: #F5F5F5; }
 
 .btn-danger {
   background: #d9534f;
-  color: #fff;
+  color: #F5F5F5;
   border: 2px solid #d9534f; }
   .btn-danger:hover, .btn-danger:focus, .btn-danger:active {
     background: #d43f3a !important;
@@ -938,7 +938,7 @@ body.offcanvas {
     border: 2px solid #d9534f; }
     .btn-danger.btn-outline:hover, .btn-danger.btn-outline:focus, .btn-danger.btn-outline:active {
       background: #d9534f;
-      color: #fff; }
+      color: #F5F5F5; }
 
 .btn-outline {
   background: none;
