@@ -5,18 +5,12 @@
   font-weight: normal;
   font-style: normal; }
 
-/* =======================================================
-*
-* 	Template Style
-*	Edit this section
-*
-* ======================================================= */
 body {
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
-  color: rgba(0, 0, 0, 0.8); }
+  color: #000; }
 
 a {
   color: #0130EA;
@@ -230,15 +224,6 @@ body.offcanvas {
     .heading {
       margin-bottom: 1em; } }
 
-.heading-meta {
-  margin-bottom: 15px;
-  display: block;
-  font-size: 10px;
-  text-transform: uppercase;
-  color: #999999;
-  font-weight: 500;
-  letter-spacing: 5px; }
-
 .splash {
   object-fit: cover;
   width: 100%; }
@@ -333,8 +318,6 @@ body.offcanvas {
   @media screen and (max-width: 768px) {
     .overlap {
       margin-top: 2em; } }
-
-      /** LIGHTBOX MARKUP **/
 
 .lightbox {
   display: none;
@@ -550,7 +533,7 @@ body.offcanvas {
         color: #0130EA; }
 
 .bg-color {
-  background: #fafafa;
+  background: #F5F5F5;
   position: relative; }
 
 .btn {
@@ -726,32 +709,6 @@ body.offcanvas {
     .nav-toggle {
       opacity: 1;
       visibility: visible; } }
-
-@media screen and (max-width: 480px) {
-  .col-xxs-12 {
-    float: none;
-    width: 100%; } }
-
-.row-bottom-padded-lg {
-  padding-bottom: 7em; }
-  @media screen and (max-width: 768px) {
-    .row-bottom-padded-lg {
-      padding-bottom: 1em; } }
-
-.row-bottom-padded-md {
-  padding-bottom: 4em; }
-  @media screen and (max-width: 768px) {
-    .row-bottom-padded-md {
-      padding-bottom: 1em; } }
-
-.row-bottom-padded-sm {
-  padding-bottom: 1em; }
-  @media screen and (max-width: 768px) {
-    .row-bottom-padded-sm {
-      padding-bottom: 1em; } }
-
-.col-padding {
-  padding: 10px !important; }
 
 .js .animate-box {
   opacity: 0; }
