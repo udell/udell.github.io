@@ -346,6 +346,7 @@ body.offcanvas {
 
 .sketchbook {
   max-height: 18em;
+  padding: .5em;
 }
 
 .project {
