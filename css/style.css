@@ -76,7 +76,7 @@ figure {
   @media screen and (max-width: 1200px) {
     #aside {
       width: 30%; } }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 926px) {
     #aside {
       width: 270px;
       -moz-transform: translateX(-270px);
@@ -93,7 +93,7 @@ figure {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box; }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 926px) {
       #aside #logo {
         margin-bottom: 1em; } }
     #aside #logo a {
@@ -105,7 +105,7 @@ figure {
     height: 70%; }
   #aside #main-menu ul {
     text-align: right; }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 926px) {
       #aside #main-menu ul {
         margin: 0 0 2em 0; } }
     #aside #main-menu ul li {
@@ -172,7 +172,7 @@ figure {
   @media screen and (max-width: 1200px) {
     #main {
       width: 70%; } }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 926px) {
     #main {
       width: 100%; } }
 
@@ -204,12 +204,6 @@ body.offcanvas {
   clear: both;
   width: 100%;
   display: block; }
-  @media screen and (max-width: 768px) {
-    .work,
-    .about,
-    .contact {
-      padding-top: 5em;
-      padding-bottom: 8em; } }
 
 .heading {
   font-size: 18px;
@@ -220,14 +214,11 @@ body.offcanvas {
   line-height: 1.8; }
   .heading span {
     display: block; }
-  @media screen and (max-width: 768px) {
-    .heading {
-      margin-bottom: 1em; } }
 
 .splash {
   object-fit: cover;
   width: 100%; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 926px) {
     .splash {
       object-fit: cover;
       height: 100vh; } }
@@ -315,7 +306,7 @@ body.offcanvas {
   margin-top: 5em;
   background: #F5F5F5;
   padding: 30px; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 926px) {
     .overlap {
       margin-top: 2em; } }
 
@@ -437,7 +428,7 @@ body.offcanvas {
       transform: translate3d(0, 15px, 0); }
       .project .desc span a {
         color: #F5F5F5; }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 926px) {
       .project .desc {
         opacity: 1;
         background: rgba(255, 255, 255, 0.5); }
@@ -523,7 +514,7 @@ body.offcanvas {
       -moz-border-radius: 7px;
       -ms-border-radius: 7px;
       border-radius: 7px; }
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 926px) {
         .social li a {
           padding: 10px 8px; } }
       .social li a:hover {
@@ -706,7 +697,7 @@ body.offcanvas {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 926px) {
     .nav-toggle {
       opacity: 1;
       visibility: visible; } }
