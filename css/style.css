@@ -75,7 +75,12 @@ figure {
   transition: 0.5s; }
   @media screen and (max-width: 1200px) {
     #aside {
+<<<<<<< HEAD
       width: 30%;} }
+=======
+      width: 30%;
+      overflow-y: scroll; } }
+>>>>>>> 919a24771f4cf70285cafbac6cde8d3827bec8cf
   @media screen and (max-width: 926px) {
     #aside {
       width: 270px;
