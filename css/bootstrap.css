@@ -3462,7 +3462,7 @@ tbody.collapse.in {
 .nav .nav-divider {
   height: 1px;
   margin: 9px 0;
-  overflow-y: scroll;
+  overflow-y: hidden;
   background-color: #e5e5e5;
 }
 .nav > li > a > img {
