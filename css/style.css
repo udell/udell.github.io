@@ -64,10 +64,10 @@ figure {
   position: relative; }
 
 #aside {
-  padding: 3em 3em 40em;
+  padding: 4em 3em 0em;
   width: 20%;
   position: fixed;
-  overflow-y: scroll;
+  overflow-y: hidden;
   z-index: 1001;
   background: #F5F5F5;
   -webkit-transition: 0.5s;
@@ -75,7 +75,8 @@ figure {
   transition: 0.5s; }
   @media screen and (max-width: 1200px) {
     #aside {
-      width: 30%; } }
+      width: 30%;
+      overflow-y: scroll; } }
   @media screen and (max-width: 926px) {
     #aside {
       width: 270px;

@@ -1633,6 +1633,7 @@ pre code {
     right: 50%;
   }
 
+
   .col-lg-pull-7 {
     right: 58.33333%;
   }
@@ -3461,7 +3462,7 @@ tbody.collapse.in {
 .nav .nav-divider {
   height: 1px;
   margin: 9px 0;
-  overflow: hidden;
+  overflow-y: scroll;
   background-color: #e5e5e5;
 }
 .nav > li > a > img {
