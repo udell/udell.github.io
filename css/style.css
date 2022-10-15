@@ -75,13 +75,8 @@ figure {
   transition: 0.5s; }
   @media screen and (max-width: 1200px) {
     #aside {
-<<<<<<< HEAD
       width: 30%;} }
-=======
-      width: 30%;
-      overflow-y: scroll; } }
->>>>>>> 919a24771f4cf70285cafbac6cde8d3827bec8cf
-  @media screen and (max-width: 926px) {
+  @media screen and (max-width: 768px) {
     #aside {
       width: 270px;
       -moz-transform: translateX(-270px);
@@ -98,7 +93,7 @@ figure {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box; }
-    @media screen and (max-width: 926px) {
+    @media screen and (max-width: 768px) {
       #aside #logo {
         margin-bottom: 1em; } }
     #aside #logo a {
@@ -110,7 +105,7 @@ figure {
     height: 70%; }
   #aside #main-menu ul {
     text-align: right; }
-    @media screen and (max-width: 926px) {
+    @media screen and (max-width: 768px) {
       #aside #main-menu ul {
         margin: 0 0 2em 0; } }
     #aside #main-menu ul li {
@@ -177,7 +172,7 @@ figure {
   @media screen and (max-width: 1200px) {
     #main {
       width: 70%; } }
-  @media screen and (max-width: 926px) {
+  @media screen and (max-width: 768px) {
     #main {
       width: 100%; } }
 
@@ -223,7 +218,7 @@ body.offcanvas {
 .splash {
   object-fit: cover;
   width: 100%; }
-  @media screen and (max-width: 926px) {
+  @media screen and (max-width: 768px) {
     .splash {
       object-fit: cover;
       height: 100vh; } }
@@ -311,7 +306,7 @@ body.offcanvas {
   margin-top: 5em;
   background: #F5F5F5;
   padding: 30px; }
-  @media screen and (max-width: 926px) {
+  @media screen and (max-width: 768px) {
     .overlap {
       margin-top: 2em; } }
 
@@ -433,7 +428,7 @@ body.offcanvas {
       transform: translate3d(0, 15px, 0); }
       .project .desc span a {
         color: #F5F5F5; }
-    @media screen and (max-width: 926px) {
+    @media screen and (max-width: 768px) {
       .project .desc {
         opacity: 1;
         background: rgba(255, 255, 255, 0.5); }
@@ -519,7 +514,7 @@ body.offcanvas {
       -moz-border-radius: 7px;
       -ms-border-radius: 7px;
       border-radius: 7px; }
-      @media screen and (max-width: 926px) {
+      @media screen and (max-width: 768px) {
         .social li a {
           padding: 10px 8px; } }
       .social li a:hover {
@@ -702,7 +697,7 @@ body.offcanvas {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
-  @media screen and (max-width: 926px) {
+  @media screen and (max-width: 768px) {
     .nav-toggle {
       opacity: 1;
       visibility: visible; } }
