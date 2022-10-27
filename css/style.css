@@ -98,9 +98,6 @@ figure {
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       box-sizing: border-box; }
-      @media screen and (max-width: 768px) {
-        #aside #logo {
-          margin-bottom: 1em; } }
       #aside #logo a {
       display: block;
       float: right;
