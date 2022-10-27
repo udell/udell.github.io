@@ -71,7 +71,7 @@ figure {
     bottom: 0;
     top: 0;
     left: 0;
-    overflow-y: hidden;
+    overflow-y: scroll;
     z-index: 1001;
     background: #F5F5F5;
     -webkit-transition: 0.5s;
@@ -91,7 +91,6 @@ figure {
     #aside #logo {
       display: block;
       float: right;
-      padding: 0;
       margin-bottom: 3em;
       text-indent: -9000px;
       width: 75%;
@@ -100,25 +99,17 @@ figure {
       box-sizing: border-box; }
       #aside #logo a {
       display: block;
-      float: right;
       position: relative;
       background: url(images/logo.svg) no-repeat center;
       width: 75%;
       height: 75%; }
-        #aside #logo a span {
-          display: block;
-          margin-bottom: 5px;
-          text-align: center; }
     #aside #main-menu ul {
-      text-align: right; }
-      @media screen and (max-width: 768px) {
-        #aside #main-menu ul {
-          margin: 0 0 2em 0; } }
+      padding: 0; }
       #aside #main-menu ul li {
         margin: 0 0 10px 0;
-        padding: 0;
         list-style: none;
         font-size: 14px;
+        text-align: right;
         letter-spacing: 1px;
         text-transform: uppercase;
         color: #c4c4c4; }
@@ -224,10 +215,10 @@ body.offcanvas {
 
 .splash {
   object-fit: cover;
+  overflow: hidden;
   width: 100%; }
   @media screen and (max-width: 768px) {
     .splash {
-      object-fit: cover;
       height: 100vh; } }
 
 .about-img,
