@@ -90,9 +90,9 @@
 			}
 		});
 
-		$('.js-nav-toggle').click(function(e) {
-		    e.preventDefault();
-		    e.stopPropagation();
+		$('.js-nav-toggle').on('click', function(event){
+		    event.preventDefault();
+		    event.stopPropagation();
 
 		    return false;
 		});
