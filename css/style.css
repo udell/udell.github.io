@@ -1172,6 +1172,9 @@ body.offcanvas {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
+  @media screen and (max-width: 768px) {
+    .lightbox {
+      background-position: top; } }
 
 .sketchbook {
   max-height: 18em;
