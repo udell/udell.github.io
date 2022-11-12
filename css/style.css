@@ -717,3 +717,14 @@ body.offcanvas {
     height: inherit !important;
     float: left;
     padding-top: 30px; } }
+
+
+.img-responsive:hover {
+        background: #ffaec9;
+        opacity: 0.75; }
+
+.img-detail {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      padding-bottom: 6px; }
