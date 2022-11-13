@@ -1173,7 +1173,7 @@ body.offcanvas {
   background-repeat: no-repeat;
   background-size: contain; }
   @media screen and (max-width: 768px) {
-    .lightbox {
+    .lightbox span {
       background-position: top; } }
 
 .sketchbook {
