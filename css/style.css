@@ -102,12 +102,13 @@ h1, h2, h3, h4, h5, h6 {
   @media screen and (max-width: 768px) {
     #aside {
       width: 270px;
+      padding-left: 3em;
+      padding-right: 3em;
       -moz-transform: translateX(-270px);
       -webkit-transform: translateX(-270px);
       -ms-transform: translateX(-270px);
       -o-transform: translateX(-270px);
-      transform: translateX(-270px);
-      padding-top: 4em; } }
+      transform: translateX(-270px); } }
   #aside #logo {
     text-align: right;
     font-weight: 400;
@@ -118,7 +119,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%; }
     @media screen and (max-width: 768px) {
       #aside #logo {
-        margin-bottom: 1em; } }
+        margin-bottom: 2em; } }
     #aside #logo a {
       display: inline-block;
       text-align: center;
