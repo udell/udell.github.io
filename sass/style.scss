@@ -177,7 +177,6 @@ figure {
 	padding-bottom: 40px;
 	padding-left: 3em;
 	padding-right: 3em;
-
 	width: 20%;
 	position: fixed;
 	bottom: 0;
@@ -187,9 +186,10 @@ figure {
 	z-index: 1001;
 	background: $brand-white;
 	@include transition(.5s);
-	/*@media screen and (max-width: $screen-lg) {
-		width: 30%;
-	}*/
+	@media screen and (max-width: $screen-md) {
+		padding-left: 2em;
+		padding-right: 2em;
+	}
 	@media screen and (max-width: $screen-sm) {
 		width: 270px;
 		@include translateX(-270px);
@@ -314,7 +314,7 @@ figure {
 		ul {
 			padding: 0;
 			margin: 0;
-			// text-align: center;
+			text-align: right;
 			li {
 				padding: 0;
 				margin: 0;
@@ -338,9 +338,6 @@ figure {
 	width: 80%;
 	float: right;
 	@include transition(.5s);
-	/*@media screen and (max-width: $screen-lg) {
-		width: 70%;
-	}*/
 	@media screen and (max-width: $screen-sm) {
 		width: 100%;
 	}
