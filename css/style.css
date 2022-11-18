@@ -163,7 +163,7 @@ h1, h2, h3, h4, h5, h6 {
           bottom: 7px;
           left: 0;
           right: 0;
-          background-color: #fe019a;
+          background-color: #01eabb;
           visibility: hidden;
           -webkit-transform: scaleX(0);
           -moz-transform: scaleX(0);
@@ -884,8 +884,8 @@ body.offcanvas {
   color: #F5F5F5;
   border: 2px solid #0130EA; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    background: #fe019a !important;
-    border-color: #fe019a !important; }
+    background: #01eabb !important;
+    border-color: #01eabb !important; }
   .btn-primary.btn-outline {
     background: transparent;
     color: #0130EA;
@@ -1133,7 +1133,7 @@ body.offcanvas {
 /********* Caroline Styling*********/
 
 .img-responsive:hover {
-        background: #fe019a;
+        background: #01eabb;
         opacity: 0.75; }
 
 .img-detail {
