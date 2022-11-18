@@ -167,12 +167,12 @@ figure {
   background: $brand-primary;
 }
 
-#colorlib-page {
+#page {
     width: 100%;
     overflow: hidden;
     position: relative;
 }
-#colorlib-aside {
+#aside {
 	padding-top: 3em;
 	padding-bottom: 40px;
 	padding-left: 3em;
@@ -193,9 +193,10 @@ figure {
 	@media screen and (max-width: $screen-sm) {
 		width: 270px;
 		@include translateX(-270px);
-		padding-top: 4em;
+		padding-left: 3em;
+		padding-right: 3em;
 	}
-	#colorlib-logo {
+	#logo {
 		text-align: right;
 		font-weight: 400;
 		font-size: 22px;
@@ -204,7 +205,7 @@ figure {
 		display: block;
 		width: 100%;
 		@media screen and(max-width: $screen-sm){
-			margin-bottom: 1em;
+			margin-bottom: 2em;
 		}
 		a{
 			display: inline-block;
@@ -221,7 +222,7 @@ figure {
 			}
 		}
 	}
-	#colorlib-main-menu {
+	#main-menu {
 		ul {
 			text-align: right;
 			margin: 0;
@@ -278,7 +279,7 @@ figure {
 						}
 					}
 				}
-				&.colorlib-active {
+				&.active {
 					a {
 						color: $brand-black;
 						&:after {
@@ -294,7 +295,7 @@ figure {
 			}
 		}
 	}
-	.colorlib-footer {
+	.footer {
 		position: absolute;
 		bottom: 40px;
 		right: 1.5em;
@@ -334,7 +335,7 @@ figure {
 	}
 }
 
-#colorlib-main {
+#main {
 	width: 80%;
 	float: right;
 	@include transition(.5s);
@@ -344,7 +345,7 @@ figure {
 }
 
 
-#colorlib-hero {
+#hero {
 	min-height: 500px;
 	background: $brand-white url(../images/loader.gif) no-repeat center center;
 	width: 100%;
@@ -453,7 +454,7 @@ figure {
 						font-size: 30px;
 					}
 				}s
-				.colorlib-lead{
+				.lead{
 					font-size: 20px;
 					color: $brand-white;
 				}
@@ -490,25 +491,25 @@ figure {
 body {
 	&.offcanvas {
 		overflow-x: hidden;
-		#colorlib-aside {
+		#aside {
 			@include translateX(0);
 			width: 270px;
 			background: $brand-white;
 			z-index: 999;
 			position: fixed;
 		}
-		#colorlib-main, .colorlib-nav-toggle {
+		#main, .nav-toggle {
 			top: 0;
 			@include translateX(270px);
 		}
 	}
 }
 
-.colorlib-blog,
-.colorlib-work,
-.colorlib-about,
-.colorlib-services,
-.colorlib-contact{
+.blog,
+.work,
+.about,
+.services,
+.contact{
 	padding-top: 4em;
 	padding-bottom: 9em;
 	clear: both;
@@ -529,7 +530,7 @@ body {
 	position: relative;
 }
 
-.colorlib-heading {
+.heading {
 	font-size: 18px;
 	margin-bottom: 4em;
 	font-weight: 500;
@@ -849,7 +850,7 @@ content: "\ea1c";
 }
 
 
-.colorlib-lead {
+.lead {
 	font-size: 18px;
 	line-height: 1.5;
 }
@@ -863,7 +864,7 @@ content: "\ea1c";
 }
 
 
-.colorlib-social {
+.social {
 	padding: 0;
 	margin: 0;
 	text-align: center;
@@ -902,18 +903,18 @@ content: "\ea1c";
 	}
 }
 
-.colorlib-more-contact {
+.more-contact {
 	background: lighten($brand-black, 98%);
 	border: 1px solid red;
 }
 
-.colorlib-feature {
+.feature {
 	text-align: left;
 	width: 100%;
 	float: left;
 	margin-bottom: 40px;
 	position: relative;
-	.colorlib-icon {
+	.icon {
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -934,7 +935,7 @@ content: "\ea1c";
 			}
 		}
 	}
-	.colorlib-text {
+	.text {
 		padding-left: 120px;
 		width: 100%;
 		h2, h3 {
@@ -950,11 +951,11 @@ content: "\ea1c";
 			text-transform: uppercase;
 		}
 	}
-	&.colorlib-feature-sm {
-		.colorlib-text {
+	&.feature-sm {
+		.text {
 			margin-top: 30px;
 		}
-		.colorlib-icon {
+		.icon {
 			i {
 				color: $brand-primary;
 				font-size: 40px;
@@ -967,8 +968,8 @@ content: "\ea1c";
 }
 
 
-.colorlib-feature-lg{
-	.colorlib-text {
+.feature-lg{
+	.text {
 		h2, h3 {
 			margin: 0;
 			padding: 0;
@@ -985,7 +986,7 @@ content: "\ea1c";
 }
 
 
-.colorlib-bg-color{
+.bg-color{
 	background: lighten($brand-black,98%);
 	position: relative;
 }
@@ -1177,7 +1178,7 @@ content: "\ea1c";
 }
 
 // Burger Menu
-.colorlib-nav-toggle {
+.nav-toggle {
   cursor: pointer;
   text-decoration: none;
   &.active i {
@@ -1231,22 +1232,22 @@ content: "\ea1c";
   }
 }
 
-.colorlib-nav-toggle i::before {
+.nav-toggle i::before {
   top: -7px;
 }
-.colorlib-nav-toggle i::after {
+.nav-toggle i::after {
   bottom: -7px;
 }
-.colorlib-nav-toggle:hover i::before {
+.nav-toggle:hover i::before {
   top: -10px;
 }
-.colorlib-nav-toggle:hover i::after {
+.nav-toggle:hover i::after {
   bottom: -10px;
 }
-.colorlib-nav-toggle.active i {
+.nav-toggle.active i {
 	background: transparent;
 }
-.colorlib-nav-toggle.active i::before {
+.nav-toggle.active i::before {
   top:0;
   -webkit-transform: rotateZ(45deg);
      -moz-transform: rotateZ(45deg);
@@ -1254,7 +1255,7 @@ content: "\ea1c";
        -o-transform: rotateZ(45deg);
           transform: rotateZ(45deg);
 }
-.colorlib-nav-toggle.active i::after {
+.nav-toggle.active i::after {
   bottom:0;
   -webkit-transform: rotateZ(-45deg);
      -moz-transform: rotateZ(-45deg);
@@ -1262,7 +1263,7 @@ content: "\ea1c";
        -o-transform: rotateZ(-45deg);
           transform: rotateZ(-45deg);
 }
-.colorlib-nav-toggle {
+.nav-toggle {
   	position: fixed;
   	left: -4px;
 	top: 0px;
