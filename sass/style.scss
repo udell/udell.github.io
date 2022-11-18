@@ -9,7 +9,7 @@ $brand-primary: #F75940 !default;
 
 
 
-$brand-white: #fff;
+$brand-white: #F5F5F5;
 $brand-black: #000;
 $brand-darker: #444;
 $brand-gray: #ccc;
@@ -252,7 +252,7 @@ figure {
 						bottom: 7px;
 						left: 0;
 						right: 0;
-						background-color: $brand-black;
+						background-color: #fe019a;
 						visibility: hidden;
 						-webkit-transform: scaleX(0);
 						-moz-transform: scaleX(0);
@@ -267,7 +267,7 @@ figure {
 					}
 					&:hover {
 						text-decoration: none;
-						color: rgba(0,0,0,1);
+						color: #0130EA;
 
 						&:after {
 							visibility: visible;
@@ -281,7 +281,7 @@ figure {
 				}
 				&.active {
 					a {
-						color: $brand-black;
+						color: #0130EA;
 						&:after {
 							visibility: visible;
 							-webkit-transform: scaleX(1);
