@@ -23,12 +23,12 @@ body {
       font-size: 16px; } }
 
 a {
-  color: #9300ff;
+  color: #9966CC;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
   a:hover, a:active, a:focus {
-    color: #9300ff;
+    color: #9966CC;
     outline: none;
     text-decoration: none !important; }
 
@@ -58,15 +58,15 @@ h1, h2, h3, h4, h5, h6 {
 
   ::-webkit-selection {
     color: #F5F5F5;
-    background: #9300ff; }
+    background: #9966CC; }
 
   ::-moz-selection {
     color: #F5F5F5;
-    background: #9300ff; }
+    background: #9966CC; }
 
   ::selection {
     color: #F5F5F5;
-    background: #9300ff; }
+    background: #9966CC; }
 
 #page {
   width: 100%;
@@ -157,7 +157,7 @@ h1, h2, h3, h4, h5, h6 {
           bottom: 7px;
           left: 0;
           right: 0;
-          background-color: #01eabb;
+          background-color: #62D1A8;
           visibility: hidden;
           -webkit-transform: scaleX(0);
           -moz-transform: scaleX(0);
@@ -171,7 +171,7 @@ h1, h2, h3, h4, h5, h6 {
           transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
         #aside #main-menu ul li a:hover {
           text-decoration: none;
-          color: #9300ff; }
+          color: #9966CC; }
           #aside #main-menu ul li a:hover:after {
             visibility: visible;
             -webkit-transform: scaleX(1);
@@ -180,7 +180,7 @@ h1, h2, h3, h4, h5, h6 {
             -o-transform: scaleX(1);
             transform: scaleX(1); }
       #aside #main-menu ul li.active a {
-        color: #9300ff; }
+        color: #9966CC; }
         #aside #main-menu ul li.active a:after {
           visibility: visible;
           -webkit-transform: scaleX(1);
@@ -218,7 +218,7 @@ h1, h2, h3, h4, h5, h6 {
           #aside .footer ul li a:hover, #aside .footer ul li a:active, #aside .footer ul li a:focus {
             text-decoration: none;
             outline: none;
-            color: #9300ff; }
+            color: #9966CC; }
 
 #main {
   width: 80%;
@@ -273,7 +273,7 @@ h1, h2, h3, h4, h5, h6 {
           #hero .flexslider .flex-control-nav li a.flex-active {
             cursor: pointer;
             background: transparent;
-            border: 2px solid #9300ff; }
+            border: 2px solid #9966CC; }
     #hero .flexslider .flex-direction-nav {
       display: none; }
     #hero .flexslider .slider-text {
@@ -447,7 +447,7 @@ body.offcanvas {
   font-size: 14px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  background-color: #9300ff;
+  background-color: #9966CC;
   color: #F5F5F5;
   position: relative;
   -webkit-box-shadow: none !important;
@@ -653,7 +653,7 @@ body.offcanvas {
           .project .desc .con h3 a {
             position: relative;
             color: #F5F5F5;
-            background: #9300ff; } }
+            background: #9966CC; } }
   .project:hover .desc {
     opacity: 1; }
     .project:hover .desc h3 {
@@ -730,11 +730,11 @@ body.offcanvas {
         .social li a {
           padding: 10px 8px; } }
       .social li a:hover {
-        color: #9300ff; }
+        color: #9966CC; }
       .social li a:hover, .social li a:active, .social li a:focus {
         outline: none;
         text-decoration: none;
-        color: #9300ff; }
+        color: #9966CC; }
 
 #map {
   width: 100%;
@@ -769,7 +769,7 @@ body.offcanvas {
     .feature .icon i {
       display: table-cell;
       vertical-align: middle;
-      color: #9300ff;
+      color: #9966CC;
       font-size: 40px;
       height: 100px; }
       @media screen and (max-width: 1200px) {
@@ -791,7 +791,7 @@ body.offcanvas {
   .feature.feature-sm .text {
     margin-top: 30px; }
   .feature.feature-sm .icon i {
-    color: #9300ff;
+    color: #9966CC;
     font-size: 40px; }
     @media screen and (max-width: 1200px) {
       .feature.feature-sm .icon i {
@@ -832,19 +832,19 @@ body.offcanvas {
         -ms-border-radius: 2px;
         border-radius: 2px; }
       .pagination li a:hover, .pagination li a:focus {
-        background: #9300ff;
+        background: #9966CC;
         color: #F5F5F5;
-        border: 1px solid #9300ff; }
+        border: 1px solid #9966CC; }
       @media screen and (max-width: 768px) {
         .pagination li a {
           padding: 7px 15px; } }
     .pagination li.active a {
-      background: #9300ff;
-      border: 1px solid #9300ff !important; }
+      background: #9966CC;
+      border: 1px solid #9966CC !important; }
       .pagination li.active a:hover, .pagination li.active a:focus {
-        background: #9300ff;
+        background: #9966CC;
         color: #F5F5F5;
-        border: 1px solid #9300ff !important; }
+        border: 1px solid #9966CC !important; }
 
 .btn {
   margin-right: 4px;
@@ -874,18 +874,18 @@ body.offcanvas {
     outline: none !important; }
 
 .btn-primary {
-  background: #9300ff;
+  background: #9966CC;
   color: #F5F5F5;
-  border: 2px solid #9300ff; }
+  border: 2px solid #9966CC; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    background: #01eabb !important;
-    border-color: #01eabb !important; }
+    background: #62D1A8 !important;
+    border-color: #62D1A8 !important; }
   .btn-primary.btn-outline {
     background: transparent;
-    color: #9300ff;
-    border: 2px solid #9300ff; }
+    color: #9966CC;
+    border: 2px solid #9966CC; }
     .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-      background: #9300ff;
+      background: #9966CC;
       color: #F5F5F5; }
 
 .btn-success {
@@ -978,7 +978,7 @@ body.offcanvas {
     outline: none;
     -webkit-box-shadow: none;
     box-shadow: none;
-    border-color: #9300ff; }
+    border-color: #9966CC; }
 
 #message {
   height: 130px; }
@@ -1127,7 +1127,7 @@ body.offcanvas {
 /********* Caroline Styling*********/
 
 .img-responsive:hover {
-        background: #01eabb;
+        background: #62D1A8;
         opacity: 0.75; }
 
 .img-detail {
