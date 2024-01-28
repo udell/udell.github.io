@@ -14,13 +14,10 @@
 body {
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.8;
   color: #000;
   background-color: #F5F5F5}
-  @media screen and (max-width: 992px) {
-    body {
-      font-size: 16px; } }
 
 a {
   color: #0130EA;
@@ -83,15 +80,9 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
-  @media screen and (max-width: 1200px) {
-    #aside {
-      padding-left: 2em;
-      padding-right: 2em; } }
   @media screen and (max-width: 812px) {
     #aside {
       width: 270px;
-      padding-left: 3em;
-      padding-right: 3em;
       -moz-transform: translateX(-270px);
       -webkit-transform: translateX(-270px);
       -ms-transform: translateX(-270px);
@@ -101,23 +92,9 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: auto;
     margin-right: 0;
     margin-bottom: 3em;
-    display: block;
-    width: 100%; }
-    @media screen and (max-width: 812px) {
-      #aside #logo {
-        margin-bottom: 2em; } }
+    display: block; }
     #aside #logo a {
-      display: inline-block;
-      text-align: center;
-      background: #000;
-      padding: .5em .8em;
-      color: #F5F5F5;
-      letter-spacing: 10px;
-      padding-right: .3em; }
-      #aside #logo a span {
-        display: block;
-        margin-bottom: 5px;
-        text-align: center; }
+      display: inline-block; }
   #aside #main-menu ul {
     text-align: right;
     margin: 0;
@@ -126,7 +103,7 @@ h1, h2, h3, h4, h5, h6 {
       #aside #main-menu ul {
         margin: 0 0 2em 0; } }
     #aside #main-menu ul li {
-      margin: 0 0 10px 0;
+      margin: 0 0 1em 0;
       padding: 0;
       list-style: none;
       font-size: 16px;
@@ -183,18 +160,13 @@ h1, h2, h3, h4, h5, h6 {
           -o-transform: scaleX(1);
           transform: scaleX(1); }
   #aside .footer {
-    position: absolute;
+    position: relative;
     display: inline-block;
-    width: 60%;
-    bottom: 0; 
+    float: right;
     font-size: 14px;
     text-align: right;
     font-weight: 200;
     color: rgba(0, 0, 0, 0.5); }
-    @media screen and (max-width: 812px) {
-      #aside .footer {
-        position: relative;
-        float: right;} }
   /*#aside .footer span {
       display: block; }
     #aside .footer ul {
@@ -377,7 +349,7 @@ body.offcanvas {
     .services,
     .contact {
       padding-top: 5em;
-      padding-bottom: 8em; } }
+      padding-bottom: 3em; } }
 
 .about-img,
 .about-img-2 {
@@ -1152,12 +1124,6 @@ body.offcanvas {
   @media screen and (max-width: 812px) {
     .lightbox span {
       background-position: top; } }
-
-.logo {
-  max-width: 75%; }
-  @media screen and (max-width: 812px) {
-    .logo {
-      max-width: 50%; } }
 
 a img:last-child {
   display: none !important;  
