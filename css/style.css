@@ -360,16 +360,13 @@ body.offcanvas {
 
 .heading {
   font-size: 18px;
-  margin-bottom: 2em;
+  margin-bottom: .5em;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 5px;
   line-height: 1.8; }
   .heading span {
     display: block; }
-  @media screen and (max-width: 812px) {
-    .heading {
-      margin-bottom: 1em; } }
 
 .heading-meta {
   margin-bottom: 15px;
