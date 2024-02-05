@@ -351,13 +351,6 @@ body.offcanvas {
       padding-top: 5em;
       padding-bottom: 3em; } }
 
-.about-img,
-.about-img-2 {
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  position: relative; }
-
 .heading {
   font-size: 18px;
   margin-bottom: .5em;
@@ -377,19 +370,23 @@ body.offcanvas {
   font-weight: 500;
   letter-spacing: 5px; }
 
-.about-img {
-  width: 75%;
-  height: 550px; }
-  .about-img .about-img-2 {
-    width: 100% !important;
-    height: 390px;
-    position: absolute;
-    top: 80px;
-    right: -100px;
-    width: 80%;
-    -webkit-box-shadow: 0px 35px 78px -23px rgba(0, 0, 0, 0.33);
-    -moz-box-shadow: 0px 35px 78px -23px rgba(0, 0, 0, 0.33);
-    box-shadow: 0px 35px 78px -23px rgba(0, 0, 0, 0.33); }
+.about-img-back,
+.about-img-front {
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;}
+
+.about-img-back {
+  position: relative; 
+  height: 550px;
+  width: 80%; }
+
+.about-img-front {
+  position: absolute;
+  height: 390px;
+  width: 80%;
+  top: 80px;
+  right: -100px; }
 
 .about-desc h3 {
   font-size: 18px;
