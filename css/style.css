@@ -443,7 +443,7 @@ body.offcanvas {
 
 .panel-body {
   padding: 1.5em;
-  border: 1px solid #e6e6e6 !important; }
+  color: #222 }
 
 /*.blog-entry {
   width: 100%;
