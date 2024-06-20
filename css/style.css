@@ -944,9 +944,9 @@ body.offcanvas {
   cursor: pointer;
   text-decoration: none; }
   .nav-toggle.active i::before, .nav-toggle.active i::after {
-    background: #222; }
+    background: #555; }
   .nav-toggle.dark.active i::before, .nav-toggle.dark.active i::after {
-    background: #222; }
+    background: #555; }
   .nav-toggle:hover, .nav-toggle:focus, .nav-toggle:active {
     outline: none;
     border-bottom: none !important; }
@@ -958,11 +958,11 @@ body.offcanvas {
     *display: inline;
     width: 30px;
     height: 2px;
-    color: #222;
+    color: #555;
     font: bold 14px/.4 Helvetica;
     text-transform: uppercase;
     text-indent: -55px;
-    background: #222;
+    background: #555;
     -webkit-transition: all .2s ease-out;
     -o-transition: all .2s ease-out;
     transition: all .2s ease-out; }
@@ -970,7 +970,7 @@ body.offcanvas {
       content: '';
       width: 30px;
       height: 2px;
-      background: #222;
+      background: #555;
       position: absolute;
       left: 0;
       -webkit-transition: 0.2s;
@@ -978,13 +978,13 @@ body.offcanvas {
       transition: 0.2s; }
   .nav-toggle.dark i {
     position: relative;
-    color: #222;
-    background: #222;
+    color: #555;
+    background: #555;
     -webkit-transition: all .2s ease-out;
     -o-transition: all .2s ease-out;
     transition: all .2s ease-out; }
     .nav-toggle.dark i::before, .nav-toggle.dark i::after {
-      background: #222;
+      background: #555;
       -webkit-transition: 0.2s;
       -o-transition: 0.2s;
       transition: 0.2s; }
