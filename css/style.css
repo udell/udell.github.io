@@ -436,13 +436,14 @@ body.offcanvas {
   content: "\ea1c"; }
 
 .panel-heading a.collapsed {
-  background: #fafafa;
+  background: #f1f1f1;
   border: 1px solid #e6e6e6 !important;
   color: #333333; }
 
 .panel-body {
   padding: 1.5em;
-  color: #222 }
+  color: #222;
+  background: #DDD5F3 }
 
 /*.blog-entry {
   width: 100%;
