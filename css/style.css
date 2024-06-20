@@ -337,8 +337,7 @@ body.offcanvas {
 .about,
 .services,
 .contact {
-  padding-top: 4em;
-  padding-bottom: 1em;
+  padding: 4em 1em 1em 1em;
   clear: both;
   width: 100%;
   display: block; }
@@ -544,7 +543,7 @@ body.offcanvas {
         position: absolute;
         height: auto;
         width: auto;
-        color: #f1f1f1; }
+        color: #222; }
         .project .desc .con .icon {
           position: absolute;
           bottom: 20px;
@@ -566,7 +565,7 @@ body.offcanvas {
               color: #cccccc; }
     .project .desc h3 {
       font-size: 20px;
-      font-style: italic;
+      font-style: normal;
       font-weight: 500;
       color: #f1f1f1;
       letter-spacing: 1px;
@@ -584,7 +583,7 @@ body.offcanvas {
       transform: translateX(-50%) translateY(-50%); }
     .project .desc span {
       display: block;
-      color: #999999;
+      color: #fff;
       font-size: 13px;
       -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
       -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
@@ -599,9 +598,8 @@ body.offcanvas {
     @media screen and (max-width: 812px) {
       .project .desc {
         opacity: 1;
-        background: rgba(255, 255, 255, 0.5); }
+        background: none; }
         .project .desc h3 {
-          font-style: 28px;
           -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0); }
         .project .desc span {
