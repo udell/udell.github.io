@@ -925,6 +925,7 @@ body.offcanvas {
   border: 1px solid rgba(0, 0, 0, 0.1);
   height: 54px;
   font-size: 16px;
+  color: #f1f1f1;
   font-weight: 400;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
