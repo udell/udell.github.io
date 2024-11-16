@@ -1093,6 +1093,11 @@ body.offcanvas {
   height: auto;
   padding-bottom: 1em;}
 
+.img-grid {
+  display: block;
+  max-width: 100%;
+  height: auto;}  
+
 .lightbox {
   display: none;
   position: fixed;
