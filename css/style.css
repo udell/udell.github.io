@@ -542,7 +542,7 @@ body.offcanvas {
         height: 450px;
         width: 100%; }
       .project .desc .con h3 a {
-        position: absolute;
+        position: relative;
         height: auto;
         width: auto;
         color: #f1f1f1; }
