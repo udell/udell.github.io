@@ -52,15 +52,15 @@ h1, h2, h3, h4, h5, h6 {
 
   ::-webkit-selection {
     color: #000;
-    background: gold; }
+    background: #33CCFF; }
 
   ::-moz-selection {
     color: #000;
-    background: gold; }
+    background: #33CCFF; }
 
   ::selection {
     color: #000;
-    background: gold; }
+    background: #33CCFF; }
 
 #page {
   width: 100%;
